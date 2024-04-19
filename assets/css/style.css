@@ -700,6 +700,19 @@ section {
   background: #fff;
   border: 2px solid #82909c;
 }
+.resume .container button[type=button] {
+  background: rgb(90, 180, 229);
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.resume .container button[type=button]:hover {
+  background: rgb(151, 213, 248);
+}
 
 /*--------------------------------------------------------------
 # My Services
